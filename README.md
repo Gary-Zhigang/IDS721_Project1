@@ -1,10 +1,9 @@
 # IDS721_Project1
 ## Introduction
-This is simple flask demo for the course IDS720, I used github's Codespaces as IaC and used AWS App Runner for the cloud deployment.  
-**Codespaces:**  
+This is simple flask demo for the course IDS720, I used AWS Cloud9 as IaC to deploy the code and plan to use the AWS App Runner to finish the cloud deployment in the future.
+**AWS Cloud9:**  
 picture.  
-**AWS App Runner:**  
-picture.  
+
 ## Function Display
 **1. x is used:**  
 picture.  
