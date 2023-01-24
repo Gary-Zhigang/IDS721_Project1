@@ -1,6 +1,6 @@
 # IDS721_Project1
 ## Introduction
-This is simple flask demo for the course IDS720, I used AWS Cloud9 as IaC to deploy the code and plan to use the AWS App Runner to finish the cloud deployment in the future.  
+This is simple flask demo for the course IDS721, I used AWS Cloud9 as IaC to deploy the code and plan to use the AWS App Runner to finish the cloud deployment in the future.  
 
 **AWS Cloud9:**  
 ![image](https://github.com/Gary-Zhigang/IDS721_Project1/blob/main/images/p1.png)   
