@@ -42,31 +42,5 @@ def send():
             return render_template('index.html', results=message)
         return render_template('index.html', results=results)
 
-
-
-@app.route('/')
-def hello():
-    """Return a friendly HTTP greeting."""
-    print("I am inside hello world")
-    return 'Hello World! I can make change at route: /change'
-
-@app.route('/change/<dollar>/<cents>')
-def changeroute(dollar, cents):
-    print(f"Make Change for {dollar}.{cents}")
-    amount = f"{dollar}.{cents}"
-    result = change(float(amount))
-    return jsonify(result)
-    
-    
-@app.route('/100/change/<dollar>/<cents>')
-def change100route(dollar, cents):
-    print(f"Make Change for {dollar}.{cents}")
-    amount = f"{dollar}.{cents}"
-    amount100 = float(amount) * 100
-    print(f"This is the {amount} X 100")
-    result = change(amount100)
-    return jsonify(result)
-
-
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=80, debug=True)
