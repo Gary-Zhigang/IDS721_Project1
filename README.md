@@ -14,4 +14,4 @@ This is simple flask demo for the course IDS721, I used AWS Cloud9 as IaC to dep
 ![image](https://github.com/Gary-Zhigang/IDS721_Project1/blob/main/images/p3.png)  
 ## Usage
 For the local usage, you could use ``make install`` command to finish installation, and use ``python app.py`` command to run the website.  
-For the cloud usage, you could click [this link](https://yqwiin5zmj.us-east-1.awsapprunner.com/send) to explore the calculator app.
+For the cloud usage, you could click [this link](https://yqwiin5zmj.us-east-1.awsapprunner.com) to explore the calculator app.
