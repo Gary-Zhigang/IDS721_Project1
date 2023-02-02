@@ -6,6 +6,7 @@ GUI using the flask module
 # import Flask Library
 
 from flask import Flask, render_template, request
+from ast import literal_eval
 
 
 app = Flask(__name__)
@@ -32,9 +33,10 @@ def send():
                 return render_template('index.html', results="Non string value passed to x\n Please Provide an integer value")
         expression = request.form['expression']
         try:
-            results = eval(expression)
+            # results = eval(expression)
+            results = literal_eval(expression)
             print(results)
-        except Exception as e:
+        except ZeroDivisionError as e:
             message = """Oops! 
             Your expression syntax is incorrect!
             The full returned Traceback:
