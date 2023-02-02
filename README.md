@@ -1,4 +1,5 @@
 # IDS721_Project1
+[![Python application](https://github.com/Gary-Zhigang/IDS721_Project1/actions/workflows/python_app.yml/badge.svg)](https://github.com/Gary-Zhigang/IDS721_Project1/actions/workflows/python_app.yml)
 ## Introduction
 This is simple flask demo for the course IDS721, I used AWS Cloud9 as IaC to deploy the code and implemented the AWS App Runner to deploy this calculator application in the cloud.  
 
